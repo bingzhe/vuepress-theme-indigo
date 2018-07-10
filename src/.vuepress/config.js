@@ -54,10 +54,10 @@ module.exports = {
     lang: 'zh-CN',
     postDir: '/posts',
     subTitle: '学习弯道超车的技巧！',
-    author: '王昱森',
-    email: 'iyusen@foxmail.com',
-    since: 2015,
-    avatar: '/face.jpg',
+    author: 'bingzhe',
+    email: 'ranzhouli@foxmail.com',
+    since: 2016,
+    avatar: '/avater.jpg',
     avatarLink: '/',
     menus: [
       // icons by https://fontawesome.com/icons
@@ -77,12 +77,12 @@ module.exports = {
         url: 'https://github.com/yscoder',
         external: true
       },
-      {
-        text: 'Weibo',
-        icon: 'fab fa-weibo',
-        url: 'https://www.weibo.com/ysweb',
-        external: true
-      },
+      // {
+      //   text: 'Weibo',
+      //   icon: 'fab fa-weibo',
+      //   url: 'https://www.weibo.com/ysweb',
+      //   external: true
+      // },
       {
         text: 'About',
         icon: 'fa fa-user-secret',

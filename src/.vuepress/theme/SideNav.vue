@@ -96,7 +96,7 @@ export default {
   }
 }
 
-.navigation-drawer--mini-variant {
+.v-navigation-drawer--mini-variant {
   .variant-hide {
     display: none;
   }

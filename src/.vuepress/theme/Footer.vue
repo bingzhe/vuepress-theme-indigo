@@ -6,8 +6,12 @@
             tile
             color="primary"
             class="primary--text text--lighten-4 text-xs-center py-3">
-      <v-card-text v-html="$tt('license')"
-                   class="pb-0"></v-card-text>
+      <v-card-text 
+        v-html="$tt('license')"
+        class="pb-0"
+      >
+      </v-card-text>
+
       <v-card-text class="pt-0 mt-1">
         <span>{{$site.themeConfig.author}} &copy; {{since}}</span>
         <span>
@@ -34,23 +38,23 @@
 export default {
   computed: {
     since() {
-      const since = this.$site.themeConfig.since
-      const now = new Date().getFullYear()
-      return since < now ? `${since} - ${now}` : since
+      const since = this.$site.themeConfig.since;
+      const now = new Date().getFullYear();
+      return since < now ? `${since} - ${now}` : since;
     }
   }
-}
+};
 </script>
 <style lang="stylus">
 .blog-footer {
   font-size: 13px;
 
-  .card {
+  .v-card {
     width: 100%;
     opacity: 0.9;
   }
 
-  .card__text {
+  .v-card__text {
     span {
       &:not(:first-child):before {
         content: '·';
@@ -59,7 +63,7 @@ export default {
     }
 
     a {
-      color: inherit;
+      color: #b5b7ff !important;
       text-decoration: none;
       border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
 

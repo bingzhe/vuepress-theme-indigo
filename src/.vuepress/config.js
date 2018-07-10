@@ -7,8 +7,8 @@ const isProd = process.env.NODE_ENV === 'production'
 module.exports = {
   base: isProd ? '/vuepress-theme-indigo/' : '/',
   dest: 'docs',
-  title: "Yusen's Blog",
-  description: '王昱森的博客。无所谓做什么，只要是当前最感兴趣的事！随心、随性、随缘！',
+  title: "BINGZHE's Blog",
+  description: 'BINGZHE的博客',
   head: [
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -25,8 +25,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "Yusen's Blog",
-      description: '王昱森的博客。无所谓做什么，只要是当前最感兴趣的事！随心、随性、随缘！'
+      title: "BINGZHE's Blog",
+      description: 'BINGZHE的博客'
     }
   },
   configureWebpack: (config, isServer) => {
@@ -74,7 +74,7 @@ module.exports = {
       {
         text: 'Github',
         icon: 'fab fa-github',
-        url: 'https://github.com/yscoder',
+        url: 'https://github.com/bingzhe',
         external: true
       },
       // {
